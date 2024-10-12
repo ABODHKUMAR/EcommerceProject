@@ -1,6 +1,6 @@
 # MERN E-COMMERCE
 
-Hi! My name is **Abodh Shah**, I have created this to teach learn Mern Stack.
+Hi! My name is **Abodh Shah**, I have created this to learn Mern Stack.
 
 # Prerequisite
 
