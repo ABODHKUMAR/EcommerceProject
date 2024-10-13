@@ -23,10 +23,10 @@ const user = require("./routes/userRoute");
 const order = require("./routes/orderRoute");
 const payment = require("./routes/paymentRoute");
 
-app.use("/api/v1", product);
-app.use("/api/v1", user);
-app.use("/api/v1", order);
-app.use("/api/v1", payment);
+app.use(" https://ecommerce-project-exlp.vercel.app/api/v1", product);
+app.use(" https://ecommerce-project-exlp.vercel.app/api/v1", user);
+app.use(" https://ecommerce-project-exlp.vercel.app/api/v1", order);
+app.use(" https://ecommerce-project-exlp.vercel.app/api/v1", payment);
 
 
 
