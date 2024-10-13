@@ -5,9 +5,9 @@
   "main": "backend/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+    "start": "node backend/server.js  && cd appview && npm start",
+    "dev": "node backend/server.js",
+    "build": "npm install --prefix appview && npm run build --prefix appview"
   },
   "author": "",
   "license": "ISC",
