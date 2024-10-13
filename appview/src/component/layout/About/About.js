@@ -21,13 +21,13 @@ const About = () => {
               src="https://res.cloudinary.com/dcuarloic/image/upload/v1728789255/avatars/jf88ivgvwryt1mlrtyk3.jpg"
               alt="Founder"
             />
-            <Typography>Abhishek Singh</Typography>
+            <Typography>Abodh Shah</Typography>
             <Button onClick={visitInstagram} color="primary">
               Visit Instagram
             </Button>
             <span>
-              This is a sample wesbite made by @meabhisingh. Only with the
-              purpose to teach MERN Stack on the channel 6 Pack Programmer
+              This is a sample wesbite made by @Abodh Shah. Only with the
+              purpose to learn MERN Stack both backend and frontend view.
             </span>
           </div>
           <div className="aboutSectionContainer2">
