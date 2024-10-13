@@ -18,7 +18,7 @@ const About = () => {
           <div>
             <Avatar
               style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
-              src="https://res.cloudinary.com/tripleayt/image/upload/v1631555947/products/jpyibarlaxawvcvqjv5b.png"
+              src="https://res.cloudinary.com/dcuarloic/image/upload/v1728789255/avatars/jf88ivgvwryt1mlrtyk3.jpg"
               alt="Founder"
             />
             <Typography>Abhishek Singh</Typography>
@@ -33,13 +33,13 @@ const About = () => {
           <div className="aboutSectionContainer2">
             <Typography component="h2">Our Brands</Typography>
             <a
-              href="https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw"
+              href="https://www.youtube.com/@abodh7046"
               target="blank"
             >
               <YouTubeIcon className="youtubeSvgIcon" />
             </a>
 
-            <a href="https://instagram.com/meabhisingh" target="blank">
+            <a href="https://www.youtube.com/@abodh7046" target="blank">
               <InstagramIcon className="instagramSvgIcon" />
             </a>
           </div>
