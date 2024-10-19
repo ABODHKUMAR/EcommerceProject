@@ -9,3 +9,6 @@
   height: 56px;
   border-radius: 100%;
 }
+.menuBurgerItem{
+  background-color: rgb(235, 64, 52) !important;
+}

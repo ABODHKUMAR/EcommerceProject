@@ -5,9 +5,7 @@
   "main": "backend/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/server.js  && cd appview && npm start",
-    "dev": "node backend/server.js",
-    "build": "npm install --prefix appview && npm run build --prefix appview"
+    "start": "node backend/server.js"
   },
   "author": "",
   "license": "ISC",
