@@ -29,6 +29,13 @@ app.use("/api/v1", order);
 app.use("/api/v1", payment);
 
 
+  // Serve static files (JS, CSS, images, etc.)
+  app.use(express.static(path.join(__dirname, "../appview/build")));
+
+  // Catch-all route to serve the React app's index.html for frontend routes
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "../appview/build/index.html"));
+  });
 
 
 // Middleware for Errors
