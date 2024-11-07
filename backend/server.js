@@ -25,8 +25,8 @@ const PORT = process.env.PORT;
 connectDatabase
   .then((connectmessage) => {
     console.log(connectmessage);
-    const server = app.listen(PORT, () => {
-      console.log(`Server is working on http://localhost:${PORT}`);
+    const server = app.listen(PORT, '0.0.0.0',() => {
+      console.log(`Server is working on http://0.0.0.0:${PORT}`);
     });
   })
   .catch((error) => {
