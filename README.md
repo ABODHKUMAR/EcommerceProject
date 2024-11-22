@@ -10,7 +10,7 @@ Hi! My name is **Abodh Shah**, I have created this to learn Mern Stack.
 
 **For Backend** - `npm i`
 
-**For Frontend** - `cd frontend` ` npm i`
+**For Frontend** - `cd appview` ` npm i`
 
 ## Env Variables
 
